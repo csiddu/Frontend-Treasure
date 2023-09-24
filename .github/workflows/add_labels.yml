@@ -1,0 +1,31 @@
+name: Add Labels to New Issues
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  add_labels:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        
+      - name: Add labels to issue
+        uses: actions/github-script@v5
+        with:
+          script: |
+            const labelsToAdd = ["hacktoberfest"]; // Add your desired labels here
+            const issue = github.context.payload.issue;
+            const owner = issue.repository.owner.login;
+            const repo = issue.repository.name;
+            await github.issues.addLabels({
+              owner,
+              repo,
+              issue_number: issue.number,
+              labels: labelsToAdd,
+            });
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
