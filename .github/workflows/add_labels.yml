@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          node-version: 16
         
       - name: Add labels to issue
         uses: actions/github-script@v5
