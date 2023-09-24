@@ -98,7 +98,7 @@ Open source in frontend development is a gateway to growth. Here's why:
 - Submit your changes for review by creating a PR
 - And you are done !
 - We will review and merge your code to the main branch of this repository and you will notified for the same
-- If you having queries in basic flow of github, you can learn it from [CONTRIBUTING GUIDELINE](./CONTRIBUTING.md)
+- If you having queries in basic flow of github, you can learn it from [CONTRIBUTING GUIDELINE](.github/Contributing.md)
 <br>
 <div align="center">
 <h2><font size="6"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Page%20with%20Curl.png" alt="Page with Curl" width="40" height="40" /> Contributing Guidelines </font></h2>
@@ -107,7 +107,7 @@ Open source in frontend development is a gateway to growth. Here's why:
 
 <!-- contributing guideline detail -->
 
-- Explore our CONTRIBUTING GUIDELINE to discover comprehensive information on how to contribute to Frontend-Treasure.
+- Explore our [CONTRIBUTING GUIDELINE](.github/Contributing.md) to discover comprehensive information on how to contribute to Frontend-Treasure.
 - Familiarize yourself with the development process and the essential insights required for contributing to our project.
 - Should you have any questions, be sure to consult the provided resources within the guidelines.
 
