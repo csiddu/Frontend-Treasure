@@ -125,7 +125,7 @@ Open source in frontend development is a gateway to growth. Here's why:
 <br>
 
 
-- Please be aware that this project operates under a [CODE OF CONDUCT](./.github/CODE_OF_CONDUCT.md). By taking part in this project, you are expected to adhere to these guidelines and agree to conduct yourself accordingly
+- Please be aware that this project operates under a [CODE OF CONDUCT](.github/conduct.md). By taking part in this project, you are expected to adhere to these guidelines and agree to conduct yourself accordingly
 
 <br>
 
