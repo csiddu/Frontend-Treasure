@@ -19,7 +19,7 @@ Open source in frontend development is a gateway to growth. Here's why:
 
 <div align="center"><p>
   
-[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/)
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/cuGKQdRAR8)
 
 ![GitHub issues](https://img.shields.io/github/issues/csiddu/Frontend-Treasure)
 ![GitHub forks](https://img.shields.io/github/forks/csiddu/Frontend-Treasure)
@@ -58,6 +58,8 @@ Open source in frontend development is a gateway to growth. Here's why:
 <h2><font size="6"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="40" height="40" /> Let's start exploring </font></h2>
 <br>
 </div>
+
+#### Select an existing issue or create a new issue. Then follow the below steps:
 
 **1. Fork the repository:**
 - Go to the GitHub repository you want to contribute to.
