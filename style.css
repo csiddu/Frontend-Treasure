@@ -56,21 +56,19 @@ header .search-box {
     border-radius: 30px;
     color: gray;
     font-size: 14px;
-    text-align: center;
-    padding-left: 5px;
-    padding-right: 40px;
+    padding-left: 28px;
 }
 
 .search-box button {
     cursor: pointer;
     width: 30px;
     height: 30px;
-    border-radius: 50%;
+    border-radius: 0px 15px 15px 0px;
     border: none;
     position: absolute;
     top: 0;
-    right: 5px;
-    transform: scale(0.9);
+    right: -1.5px;
+    transform: scale(1);
     background: green;
 }
 
