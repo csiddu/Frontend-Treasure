@@ -1,0 +1,22 @@
+name: Comment on PR Creation
+on:
+  pull_request_target:
+    types:
+      - opened
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Comment on PR
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }} # Use secrets.GITHUB_TOKEN
+          script: |
+            const { owner, repo, number } = context.issue;
+            const commentAuthor = context.payload.sender.login;
+            const commentBody = `Hello! 👋 Thank you @${commentAuthor} for your pull request! \n We appreciate your contribution to "Frontend-Treasure" for Hacktoberfest. Your effort helps make our project better. 🌟 \nOur team will review your PR soon. In the meantime, feel free to explore more ways to contribute or join our community discussions. Your involvement is important to us! \n Keep up the great work! 🚀`;
+          
+            await github.issues.createComment({ owner, repo, issue_number: number, body: commentBody });
+            console.log(`Commented on the PR: ${commentBody}.`);
