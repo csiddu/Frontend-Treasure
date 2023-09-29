@@ -67,7 +67,7 @@ header .search-box {
     border: none;
     position: absolute;
     top: 0;
-    right: -1.5px;
+    right: -1.4px;
     transform: scale(1);
     background: green;
 }
