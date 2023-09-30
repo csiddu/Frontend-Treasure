@@ -63,11 +63,11 @@ header .search-box {
     cursor: pointer;
     width: 30px;
     height: 30px;
-    border-radius: 0px 15px 15px 0px;
+    border-radius:  0px 15px 15px 0px;
     border: none;
     position: absolute;
     top: 0;
-    right: -1.4px;
+    right: -1.5px;
     transform: scale(1);
     background: green;
 }
