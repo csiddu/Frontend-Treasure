@@ -1,121 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
 }
 
 body {
-    background-image: url(bg.jpg);
-    background-size: cover;
-    height: 100vh;
-    background-position: center;
+  /* background-image: url(bg.jpg);` */
+  background-color: #f0f0f0;
+  /* background-size: cover; */
+  /* height: 100vh; */
+  /* background-position: center; */
+  padding: 0 3%;
+  font-family: "Lato", sans-serif;
 }
 
 header {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    z-index: 99;
-    box-shadow: 0 0 10px #0000;
-    background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 99;
+  box-shadow: 0 0 10px #0000;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 #chk1 {
-    display: none;
+  display: none;
 }
 
-
 i {
-    color: #fff;
-    cursor: pointer;
+  color: #fff;
+  cursor: pointer;
 }
 
 header .logo {
-    flex: 1;
-    color: #fff;
-    margin-left: 50px;
-    text-transform: uppercase;
-    font-size: 15px;
+  flex: 1;
+  color: #fff;
+  margin-left: 50px;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 header .search-box {
-    flex: 1;
-    position: relative;
+  flex: 1;
+  position: relative;
 }
 
 .search-box input {
-    width: 100%;
-    height: 30px;
-    border: none;
-    outline: none;
-    background: #f2f2f2;
-    border-radius: 30px;
-    color: gray;
-    font-size: 14px;
-    text-align: center;
-    padding-left: 5px;
-    padding-right: 40px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  outline: none;
+  background: #f2f2f2;
+  border-radius: 30px;
+  color: gray;
+  font-size: 14px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 40px;
 }
 
 .search-box button {
-    cursor: pointer;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: none;
-    position: absolute;
-    top: 0;
-    right: 5px;
-    transform: scale(0.9);
-    background: green;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 5px;
+  transform: scale(0.9);
+  background: green;
 }
 
 header .menu {
-    font-size: 2.5em;
-    display: none;
+  font-size: 2.5em;
+  display: none;
 }
 
 @media (max-width: 1000px) {
-    .search-box button {
-        position: absolute;
-    }
+  .search-box button {
+    position: absolute;
+  }
 
-    header ul {
-        position: fixed;
-        top: 100px;
-        right: -100%;
-        background: rgba(0, 0, 0, 0.5);
-        height: calc(100vh - 100px);
-        width: 50%;
-        flex-direction: column;
-        align-items: center;
-        transition: right 0.5s linear;
-    }
+  header ul {
+    position: fixed;
+    top: 100px;
+    right: -100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: calc(100vh - 100px);
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    transition: right 0.5s linear;
+  }
 
-    header .menu {
-        display: block;
-        width: 100px;
-        text-align: center;
-    }
+  header .menu {
+    display: block;
+    width: 100px;
+    text-align: center;
+  }
 
-    #chk1:checked ~ ul {
-        right: 0;
-    }
+  #chk1:checked ~ ul {
+    right: 0;
+  }
 }
 
 @media (max-width: 600px) {
-    header .logo {
-        font-size: 10px;
-        margin-left: 8px;
-    }
+  header .logo {
+    font-size: 10px;
+    margin-left: 8px;
+  }
 
-    header ul {
-        width: 100%;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+  header ul {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.navbar-brand {
+  color: #2a2a2a;
+  font-size: 200%;
+  font-weight: 600;
+  width: 60%;
+}
+.nav-item {
+  margin: 0 20px;
+}
+#hero-img {
+  width: 100%;
+}
+#hero-left {
+  padding: 7% 0;
+}
+#hero-head {
+  color: #4483e5;
+  font-size: 290%;
+  font-weight: bold;
+}
+#hero-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#hero-text {
+  color: #2a2a2a;
+  font-size: 21px;
+}
+#hero-right form {
+  margin-top: 5%;
+}
+#hero-right form input {
+  width: 350px;
+}
+.row {
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+    width: 70%;
+  }
+  #hero-right form input {
+    width: 250px;
+  }
+  #hero-head {
+    font-size: 200%;
+  }
+  #hero-left {
+    text-align: center;
+  }
+  #hero-text {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .navbar-brand {
+    font-size: 150%;
+  }
 }
