@@ -126,6 +126,7 @@ header .menu {
   color: #2a2a2a;
   font-size: 200%;
   font-weight: 600;
+  width: 60%;
 }
 .nav-item {
   margin: 0 20px;
@@ -156,4 +157,29 @@ header .menu {
 }
 #hero-right form input {
   width: 350px;
+}
+.row {
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+    width: 70%;
+  }
+  #hero-right form input {
+    width: 250px;
+  }
+  #hero-head {
+    font-size: 200%;
+  }
+  #hero-left {
+    text-align: center;
+  }
+  #hero-text {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .navbar-brand {
+    font-size: 150%;
+  }
 }
