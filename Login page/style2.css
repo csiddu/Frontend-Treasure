@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    width: 100%;
+    margin-top: 170px;
+    padding: 0px;
+    background-color: orange;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    width: 995px;
+}
+
+.login_div {
+    background-color: white;
+    padding: 20px;
+    max-width: 300px;
+    margin-left: 345px;
+}
+
+.login_div button {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-family: cosmic, sans-serif;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.login_div button hover {
+    background-color: black;
+    color: orange;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 0.5s;
+}
+
+.login_div .register {
+    margin-top: 20px;
+    float: left;
+}
+
+.login_div .forgot {
+    margin-top: 20px;
+    float: right;
+}
