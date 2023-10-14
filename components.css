@@ -82,11 +82,85 @@ header .menu {
 	display: none;
 }
 
+.wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+    width: 325px;
+    height: 450px;
+    background: #000;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.poster{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.poster::before{
+    content: '';
+    position: absolute;
+    bottom: -45%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.details{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 1.5em 1.5em 2em;
+    background: #000a;
+    backdrop-filter: blur(16px) saturate(120%);
+    transition: .3s;
+    color: #fff;
+    z-index: 2;
+}
+
+.card:hover .details{
+    bottom: 0;
+}
+
+.details h1,
+.details h2{
+    font-weight: 700;
+}
+
+.details h1{
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.details h2{
+    font-weight: 400;
+    font-size: 1em;
+    margin-left: 10px;
+    opacity: .6;
+}
+
 @media (max-width: 1000px) {
 	.search-box button {
 		position: absolute;
 	}
-
 	header ul {
 		position: fixed;
 		top: 100px;
@@ -99,6 +173,10 @@ header .menu {
 		transition: right 0.5s linear;
 	}
 
+    .card{
+        width: 250px;
+        height: 375px;
+    }
 	header .menu {
 		display: block;
 		width: 100px;
@@ -121,6 +199,11 @@ header .menu {
 		flex-wrap: wrap;
 		justify-content: center;
 	}
+
+    .card{
+        height: 325px;
+        width: 225px;
+    }
 }
 .navbar-brand {
 	color: #2a2a2a;
@@ -145,3 +228,10 @@ header .menu {
 		font-size: 150%;
 	}
 }
+
+
+/* cards css */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); */
+
+
