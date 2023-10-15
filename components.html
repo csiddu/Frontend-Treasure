@@ -29,8 +29,8 @@
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-3" type="search" placeholder="Search for the components"
-                        aria-label="Search" />
-                    <button class="btn btn-outline-success" type="submit">
+                        aria-label="Search" id="searchInput" />
+                    <button class="btn btn-outline-success" type="button" onclick="searchComponents()">
                         Search
                     </button>
                 </form>
@@ -39,26 +39,32 @@
     </nav>
 
     <div class="wrapper">
+        <!-- card-1 -->
         <div class="card">
-            
-            <div class="poster"><a href="components/Login_page/login.html"><img src="images/pexels-bich-tran-2481177.jpg" alt="" /></a></div>
+            <div class="poster"><a href="components/Login_page/login.html"><img
+                        src="images/pexels-bich-tran-2481177.jpg" alt="" /></a></div>
             <div class="details">
                 <h1>Login Page</h1>
                 <h2>By : 12Kishan</h2>
             </div>
         </div>
+
+        <!-- card-2 -->
         <div class="card">
-            <div class="poster"><a href="components/contact_form/index.html"><img src="images/contact.png" alt="" /></a></div>
+            <div class="poster"><a href="components/contact_form/index.html"><img src="images/contact.png" alt="" /></a>
+            </div>
             <div class="details">
-                <h1>Contact  Form</h1>
+                <h1>Contact Form</h1>
                 <h2>By : NaitikPatel-325</h2>
             </div>
         </div>
     </div>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
