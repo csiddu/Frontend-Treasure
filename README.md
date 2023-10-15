@@ -81,6 +81,15 @@ Open source in frontend development is a gateway to growth. Here's why:
 
  **4. Make changes and commit:**
 - Make your desired changes to the files in your local repository.
+- New component should be added in this manner only : *`components/<Name of the Component>`* with having index.html file inside it. Do some required changes in **components.json** file and add Name , URL (*Same as folder name of the component*) , Author name and Image-URL .  Your changes should be like this :
+  ```
+  {
+        "name" : "Name of the component",
+        "url" : "Component's folder name",
+        "authorName" : "My Name",
+        "imgUrl" : "./images/example.jpg"
+  }
+  ```
 - Use the following commands to stage and commit your changes:
 -  `git add.`
 -  `git commit -m "Your message"`
