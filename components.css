@@ -113,6 +113,13 @@ header .menu {
     overflow: hidden;
 }
 
+.poster a img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: .3s;
+}
+
 .poster::before{
     content: '';
     position: absolute;
