@@ -1,15 +1,22 @@
 [
     {
         "name" : "Login Page",
-        "url" :"Login_page"  ,
+        "url" :"/components/Login_page"  ,
         "authorName" : "12Kishan",
         "imgUrl" : "./images/view.jpg"
     },
     {
         "name" : "Contact Form",
-        "url" :"contact_form"  ,
+        "url" :"/components/contact_form"  ,
         "authorName" : "NaitikPatel-325",
         "imgUrl" : "./images/contact.png " 
+    }
+,
+    {
+        "name" : "Sliders",
+        "url" :"http://192.168.137.1:3000/slider"  ,
+        "authorName" : "kevintamakuwala",
+        "imgUrl" : "./images/slider.png " 
     }
     
 ]
