@@ -1,19 +1,19 @@
 [
     {
         "name" : "Login Page",
-        "url" :"/components/Login_page"  ,
+        "url" :"Login_page",
         "authorName" : "12Kishan",
         "imgUrl" : "./images/view.jpg"
     },
     {
         "name" : "Contact Form",
-        "url" :"/components/contact_form",
+        "url" :"contact_form",
         "authorName" : "NaitikPatel-325",
         "imgUrl" : "./images/contact.png "
     },
     {
         "name" : "Sliders",
-        "url" :"/components/react/build/?slider",
+        "url" :"react/build/?slider",
         "authorName" : "kevintamakuwala",
         "imgUrl" : "./images/slider.png"
     }

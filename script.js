@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
       data.forEach((component) => {
         const newElement = document.createElement("div");
         newElement.innerHTML = ` <div class="card">
-                <div class="poster"><a href="${component.url}"><img
+                <div class="poster"><a href="components/${component.url}"><img
                             src="${component.imgUrl}" alt="${component.name}" /></a></div>
                 <div class="details">
                     <h1>${component.name}</h1>
