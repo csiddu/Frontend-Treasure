@@ -7,16 +7,15 @@
     },
     {
         "name" : "Contact Form",
-        "url" :"/components/contact_form"  ,
+        "url" :"/components/contact_form",
         "authorName" : "NaitikPatel-325",
-        "imgUrl" : "./images/contact.png " 
-    }
-,
+        "imgUrl" : "./images/contact.png "
+    },
     {
         "name" : "Sliders",
-        "url" :"http://192.168.137.1:3000/slider"  ,
+        "url" :"/components/react/build/?slider",
         "authorName" : "kevintamakuwala",
-        "imgUrl" : "./images/slider.png " 
+        "imgUrl" : "./images/slider.png"
     }
     
 ]
