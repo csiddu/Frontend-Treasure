@@ -13,7 +13,7 @@
     },
     {
         "name" : "Sliders",
-        "url" :"react/build/?slider",
+        "url" :"/react/build/?slider",
         "authorName" : "kevintamakuwala",
         "imgUrl" : "./images/slider.png"
     }
