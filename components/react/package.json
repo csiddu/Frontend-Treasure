@@ -2,7 +2,7 @@
   "name": "react-components",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kevintamakuwala.github.io/Frontend-Treasure/components/react/build/",
+  "homepage": "https://csiddu.github.io/Frontend-Treasure/components/react/build/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

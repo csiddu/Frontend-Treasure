@@ -1,3 +1,8 @@
+/*
+  * Author: Kevin Tamakuwala (Github: @kevintamakuwala)
+  * Date: 18/10/2003
+*/
+
 import React, { useState, useEffect } from "react";
 import ReactPaginate from "react-paginate";
 import "./pagination.css";
