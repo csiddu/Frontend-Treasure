@@ -4,12 +4,10 @@ const Layout = () => {
     <nav>
       <ul>
         <li>
-          <a href="/components/react/build/?">Home</a>
-          {/* <Link to="/components/react/build/">Home</Link> */}
+          <a href="/Frontend-Treasure/components/react/build/?">Home</a>
         </li>
         <li>
-          <a href="/components/react/build/?slider">Slider</a>
-          {/* <Link to="/components/react/build?slider">Slider</Link> */}
+          <a href="/Frontend-Treasure/components/react/build/?slider">Slider</a>
         </li>
       </ul>
     </nav>
