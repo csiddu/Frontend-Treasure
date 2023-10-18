@@ -16,6 +16,11 @@
         "url" :"react/build/?slider",
         "authorName" : "kevintamakuwala",
         "imgUrl" : "./images/slider.png"
+    },
+    {
+        "name" : "Pagination",
+        "url" :"react/build/?pagination",
+        "authorName" : "kevintamakuwala",
+        "imgUrl" : "./images/pagination.png"
     }
-    
 ]
