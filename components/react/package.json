@@ -2,7 +2,7 @@
   "name": "react-components",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://csiddu.github.io/Frontend-Treasure/components/react/build/",
+  "homepage": "https://kevintamakuwala.github.io/Frontend-Treasure/components/react/build/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -10,6 +10,7 @@
     "framer-motion": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-paginate": "^8.2.0",
     "react-scripts": "5.0.1",
     "swiper": "^10.3.1",
     "web-vitals": "^2.1.4"
