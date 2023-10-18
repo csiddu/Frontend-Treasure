@@ -9,6 +9,9 @@ const Layout = () => {
         <li>
           <a href="/Frontend-Treasure/components/react/build/?slider">Slider</a>
         </li>
+        <li>
+          <a href="/Frontend-Treasure/components/react/build/?pagination">Pagination</a>
+        </li>
       </ul>
     </nav>
   );
