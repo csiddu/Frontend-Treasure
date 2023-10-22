@@ -124,7 +124,7 @@ header .menu {
 }
 .navbar-brand {
   color: #2a2a2a;
-  font-size: 200%;
+  font-size: 170%;
   font-weight: 600;
   width: 60%;
 }
@@ -180,6 +180,11 @@ header .menu {
 }
 @media only screen and (max-width: 450px) {
   .navbar-brand {
-    font-size: 150%;
+    font-size: 140%;
   }
+}
+
+/* Footer */
+footer{
+  margin-bottom: 2%;
 }
