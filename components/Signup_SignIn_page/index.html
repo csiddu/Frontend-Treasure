@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container" id="container">
+        <div class="form-div sign-up">
+            <form action="" id="formSignup">
+                <h1>Create an account</h1>
+                <span>Use your Email for regestration</span>
+                <input type="text" placeholder="Name" required id="nameId">
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="password" required>
+                <br>
+                <button id="signUp">Sign Up</button>
+            </form>
+        </div>
+        <div class="form-div sign-in">
+            <form action="../../index.html" target="_blank" >
+                <h1>SignIn</h1>
+                <span>Login to your account</span>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="password" required>
+                <a href="#">Forgot Password?</a>
+                <br>
+                <button id="signIn">Sign In</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-left overlay-panel">
+                    <h1>Already Have Account?</h1>
+                    <p>Please login by feeling up your details</p>
+                    <button id="signIn-updated" class="ghost">Sign IN</button>
+                </div>
+                <div class="overlay-right overlay-panel">
+                    <h1>Create a New Account</h1>
+                    <p>Enter Your details</p>
+                    <button id="signup-updated" class="ghost" >Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
