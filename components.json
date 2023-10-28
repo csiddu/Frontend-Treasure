@@ -22,5 +22,11 @@
         "url" :"react/build/?pagination",
         "authorName" : "kevintamakuwala",
         "imgUrl" : "./images/pagination.png"
-    }
+    },
+    {
+        "name" : "Signup_SignIn_page",
+        "url" : "Signup_SignIn_page",
+        "authorName" : "Kavya Shah",
+        "imgUrl" : "./images/Signup_SignIn_page.png"
+  }
 ]
